@@ -3,9 +3,9 @@ pragma solidity ^0.8.20;
 
 contract Person {
     // Name & Country
-    string public greet = "Joko";
+    string public name = "Joko";
 
-    function setName(string memory _greet) public  {
-        greet = _greet;
+    function setName(string memory _name) public  {
+        name = _name;
     }
 }
